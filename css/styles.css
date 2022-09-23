@@ -1,0 +1,67 @@
+body{
+    margin: 20;
+    background-color: #FFEDED;
+}
+
+@font-face {
+    font-family: Candycolouredclown;
+    src: url("/fonts/Candycolouredclown.otf") format("opentype");
+}
+
+h1{
+    font-size: 120;
+    color: #A4003F;
+    font-family: 'Candycolouredclown', optentype;
+}
+
+h2{
+    font-size: 56;
+    color: #A4003F;
+    font-family: 'Candycolouredclown', optentype;
+}
+
+h3{
+    font-size: 56;
+    color: #A4003F;
+    font-family: 'Candycolouredclown', optentype;  
+}
+
+h4{
+    font-size: 56;
+    color: #A4003F;
+    font-family: 'Candycolouredclown', optentype;
+}
+
+h5{
+    font-size: 56;
+    color: #A4003F;
+    font-family: 'Candycolouredclown', optentype;
+}
+
+h6{
+    font-size: 56;
+    color: #A4003F;
+    font-family: 'Candycolouredclown', optentype;
+}
+
+p, ul, li, ol{
+    font-size: 14;
+    color: black;
+    font-family: 'Century Gothic';
+}
+
+a:link {
+    color: #A8366D;
+    font-size: 14;
+    font-family: 'Century Gothic'
+  }
+  
+  a:visited, a:active{
+    color: #84003F;
+    font-size: 14;
+    font-family: 'Century Gothic'
+  }
+  
+  a:hover {
+    color: #E3536D;
+  }
