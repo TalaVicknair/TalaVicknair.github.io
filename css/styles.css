@@ -3,6 +3,27 @@ body{
     background-color: #FFEDED;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article {
+    flex: 25%;
+    padding: 20px;
+}
+
+.aside {
+    flex: 75%;
+    padding: 20px;
+}
+
+@media screen and (max-width:400px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
 @font-face {
     font-family: Candycolouredclown;
     src: url("/fonts/Candycolouredclown.otf") format("opentype");
