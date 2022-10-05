@@ -103,7 +103,7 @@ a:hover {
     font-family: 'Candycolouredclown', opentype;
 }
 
-.btn {
+a.btn {
     background-color: #F4748B;
     border: 3px solid black;
     border-radius: 30px;
@@ -120,12 +120,12 @@ a:hover {
     padding-top: 5px;
   }
 
-.btn:hover {
+a.btn:hover {
     background-color: white;
     color: #F4748B;
 }
 
-.btn:active {
+a.btn:active {
     background-color: #A8366D;
     color: white;
 }
