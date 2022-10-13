@@ -71,7 +71,7 @@ h6{
     font-family: 'Candycolouredclown', optentype;
 }
 
-p, ul, li, ol{
+p, ul, li, ol, label{
     font-size: 1.5em;
     color: black;
     font-family: 'Century Gothic';
@@ -95,7 +95,7 @@ a:hover {
     font-family: 'Candycolouredclown', opentype;
 }
 
-.btn {
+.btn, button {
     background-color: #F4748B;
     border: 3px solid black;
     border-radius: 30px;
@@ -112,12 +112,12 @@ a:hover {
     padding-top: 5px;
   }
 
-a.btn:hover {
+a.btn:hover, button:hover {
     background-color: white;
     color: #F4748B;
 }
 
-a.btn:active {
+a.btn:active, button:active {
     background-color: #A8366D;
     color: white;
 }
