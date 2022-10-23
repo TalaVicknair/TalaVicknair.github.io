@@ -1,6 +1,17 @@
-h1 {
-  font-family: helvetica, arial, sans-serif;
-  text-align: center;
+body{
+  background-color: #FFEDED;
+}
+
+@font-face {
+  font-family: Candycolouredclown;
+  src: url("/fonts/Candycolouredclown.otf") format("opentype");
+}
+
+h1{
+  font-size: 3em;
+  color: #A4003F;
+  font-family: 'Candycolouredclown', optentype;
+  margin: 0;
 }
 
 body {
@@ -24,10 +35,21 @@ body {
   background-color: rgba(0,0,0,0);
 }
 
-button {
-  border: 0;
-  background: rgba(150,150,150,0.6);
-  text-shadow: 1px 1px 1px white;
+.btn, button {
+  background-color: #F4748B;
+  border: 3px solid black;
+  border-radius: 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 2.5em;
+  font-family: 'Candycolouredclown';
+  color: white;
+  height: 50px;
+  width: 250px;
+  box-shadow: 0px 9px 12px 0px rgba(0,0,0,0.49);
+  -webkit-box-shadow: 0px 9px 12px 0px rgba(0,0,0,0.49);
+  -moz-box-shadow: 0px 9px 12px 0px rgba(0,0,0,0.49);
+  padding-top: 5px;
   border: 1px solid #999;
   position: absolute;
   cursor: pointer;
@@ -35,9 +57,26 @@ button {
   left: 2px;
 }
 
+a.btn:hover, button:hover {
+  background-color: white;
+  color: #F4748B;
+}
+
+a.btn:active, button:active {
+  background-color: #A8366D;
+  color: white;
+}
+
 .thumb-bar img {
   display: block;
   width: 20%;
   float: left;
   cursor: pointer;
+}
+
+p, ul, li, ol, label{
+  font-size: 1.5em;
+  color: black;
+  font-family: 'Century Gothic';
+  margin-right: 20px;
 }
