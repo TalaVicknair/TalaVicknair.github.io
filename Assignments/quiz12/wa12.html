@@ -11,13 +11,24 @@
 </head>
 <body>
     <div>
-        <p class="output"></p>
+        <p> Please enter your phone number.</p>
+        <p class="output">9999999999</p>
     </div>
     <form>
-        <input class="phone" type="text" id="phone" name="phone" placeholder="Enter a phone number">
-        <input class="button" type="button" name="submit-button" value="Submit">
+        <!-- <input class="phone" type="text" id="phone" name="phone" placeholder="Enter a phone number"> -->
+        <input class="down-button" type="button" name="down-button" value="-">
+        <input class="up-button" type="button" name="up-button" value="+">
+        <input class="reset-button" type="button" name="reset-button" value="Reset">
+        <input class="submit-button" type="button" name="submit-button" value="Submit">
+        <input class="random-button" type="button" name="random-button" value="Random">
 
         
     </form>
+    <div class = "slidecontainer">
+        <p>Enter your phone number.</p>
+        <input type ="range" min ="1000000000" max ="9999999999" value ="8888888888" class="slider" id="myRange">
+        <input class="slider-button" type="button" name="slider-button" value="Submit">
+        <p class="slider-output"></p>
+    </div>
 </body>
 </html>
