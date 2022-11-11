@@ -1,0 +1,26 @@
+body{
+    background-color: #FFEDED;
+}
+
+.info {
+    display: table;
+}
+
+.numbers {
+    display: inline-block;
+}
+
+.input-group {
+    vertical-align: center;
+}
+
+.numBtns {
+    margin-bottom: 17px;
+}
+
+p, input{
+    font-size: 1.5em;
+    color: black;
+    font-family: 'Century Gothic';
+    margin-right: 20px;
+}
