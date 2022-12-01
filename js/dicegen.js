@@ -1,13 +1,14 @@
 // window.addEventListener('load', randomAll);
 
-const baseColorbtn = document.querySelector('bc').addEventListener("click", writeBaseClr);
+const baseColorbtn = document.querySelector("bc");
+baseColorbtn.addEventListener("click", writeBaseClr);
 
 const baseColor = ["Clear","Red","Orange","Yellow","Green","Blue","Purple","Pink","Gold","Silver","Black","White"];
 const extraColor = ["None","Red","Orange","Yellow","Green","Blue","Purple","Pink","Gold","Silver","Black","White"];
-const glitter = ["Glitter","Pearlescent","Translucent","Opaque"];
+const texture = ["Glitter","Pearlescent","Translucent","Opaque"];
 const shine = ["Matte","Shiny"];
-const inclusions = ["Fruit","Cards","Glitter","Holographic Paper","Flowers"];
-const technique = ["Petri","Swirl","Marble","Clouds"];
+const inclusions = ["None","Fruit","Cards","Glitter","Holographic Paper","Flowers"];
+const technique = ["None","Petri","Swirl","Marble","Clouds"];
 const inkColor = ["Red","Orange","Yellow","Green","Blue","Purple","Pink","Gold","Silver","Black","White"];
 const d4Shape = ["Pyramid","Pendant","Gem"];
 
