@@ -1,0 +1,230 @@
+body{
+    background-color: #FFEDED;
+}
+
+.container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.usage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.usage div {
+    flex: 1fr 1fr;
+    text-align: center;
+}
+
+.side1 {
+    width: 50%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side2 {
+    width: 50%;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: Candycolouredclown;
+    src: url("/fonts/Candycolouredclown.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Century_Gothic;
+    src: url("/fonts/GOTHIC.TTF") format("ttf");
+}
+
+h1{
+    font-size: 6em;
+    color: #A4003F;
+    font-family: 'Candycolouredclown', optentype;
+    margin-bottom: -5px;
+    margin-top: 30px;
+}
+
+h2{
+    font-size: 5em;
+    color: #A4003F;
+    font-family: 'Candycolouredclown', optentype;
+}
+
+h3{
+    font-size: 4em;
+    color: #A4003F;
+    font-family: 'Candycolouredclown', optentype;  
+}
+
+h4{
+    font-size: 3em;
+    color: #A4003F;
+    font-family: 'Candycolouredclown', optentype;
+}
+
+h5{
+    font-size: 2em;
+    color: #A4003F;
+    font-family: 'Candycolouredclown', optentype;
+}
+
+h6{
+    font-size: 1em;
+    color: #A4003F;
+    font-family: 'Candycolouredclown', optentype;
+}
+
+p, ul, ol, label{
+    font-size: 1.5em;
+    color: black;
+    font-family: 'Century Gothic';
+    margin-right: 20px;
+}
+
+li {
+    font-size: 1.4em;
+    color: black;
+    font-family: 'Century Gothic';
+    margin-right: 20px;
+}
+
+a:link {
+    color: white;
+    font-size: 14;
+    font-family: 'Candycolouredclown', opentype;
+  }
+  
+a:visited, a:active{
+    color: white;
+    font-size: 14;
+    font-family: 'Century Gothic'
+}
+  
+a:hover {
+    color: #A4003F;
+    font-family: 'Candycolouredclown', opentype;
+}
+
+.btn, button {
+    background-color: #F4748B;
+    border: 3px solid black;
+    border-radius: 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 2.5em;
+    font-family: 'Candycolouredclown';
+    color: white;
+    height: 55px;
+    width: 250px;
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.49);
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.49);
+    -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.49);
+    padding-left: 10px;
+  }
+
+a.btn:hover, button:hover {
+    background-color: white;
+    color: #F4748B;
+}
+
+a.btn:active, button:active {
+    background-color: #A8366D;
+    color: white;
+}
+
+img {
+    margin: auto;
+    border-radius: 50px;
+}
+
+nav {
+    background-color: #F4748B;
+    padding: .5em;
+    top: 0;
+    position: sticky;
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.49);
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.49);
+    -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.49);
+    margin-bottom: 0px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+  
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+  
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: .5em 1em;
+}
+
+@media screen and (max-width:500px) {
+    .container {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    h1 {
+        font-size: 5em;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    p {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    img {
+        max-width: 100%;
+        width: 100%;
+        height: auto !important;
+    }
+
+    nav ul {
+        display: inline;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:970px){
+    nav ul {
+        display: inline;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:501px) {
+    .container {
+        flex-direction: row;
+    }
+
+    img {
+        height: auto !important;
+        max-width: 50%;
+        width: 50%;
+    }
+}
