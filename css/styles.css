@@ -76,8 +76,15 @@ h6{
     font-family: 'Candycolouredclown', optentype;
 }
 
-p, ul, li, ol, label{
+p, ul, ol, label{
     font-size: 1.5em;
+    color: black;
+    font-family: 'Century Gothic';
+    margin-right: 20px;
+}
+
+li {
+    font-size: 1.4em;
     color: black;
     font-family: 'Century Gothic';
     margin-right: 20px;
