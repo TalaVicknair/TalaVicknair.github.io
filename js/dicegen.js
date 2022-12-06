@@ -91,12 +91,12 @@ function writeD4() {
 };
 
 function clear() {
-    document.getElementById("bct").innerHTML="";
-    document.getElementById("ect").innerHTML="";
-    document.getElementById("txtrt").innerHTML="";
-    document.getElementById("shnt").innerHTML="";
-    document.getElementById("iclt").innerHTML="";
-    document.getElementById("tcnt").innerHTML="";
-    document.getElementById("d4t").innerHTML="";
-    document.getElementById("ict").innerHTML="";
+    document.getElementById("bct").innerHTML="-";
+    document.getElementById("ect").innerHTML="-";
+    document.getElementById("txtrt").innerHTML="-";
+    document.getElementById("shnt").innerHTML="-";
+    document.getElementById("iclt").innerHTML="-";
+    document.getElementById("tcnt").innerHTML="-";
+    document.getElementById("d4t").innerHTML="-";
+    document.getElementById("ict").innerHTML="-";
 };
