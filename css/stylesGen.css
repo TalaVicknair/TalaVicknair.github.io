@@ -50,7 +50,7 @@ body{
 h1{
     font-size: 6em;
     color: #A4003F;
-    font-family: 'Candycolouredclown', optentype;
+    font-family: 'Candycolouredclown', opentype;
     margin-bottom: -15px;
     margin-top: 15px;
 }
@@ -58,37 +58,37 @@ h1{
 h2{
     font-size: 5em;
     color: #A4003F;
-    font-family: 'Candycolouredclown', optentype;
+    font-family: 'Candycolouredclown', opentype;
 }
 
 h3{
     font-size: 4em;
     color: #A4003F;
-    font-family: 'Candycolouredclown', optentype;  
+    font-family: 'Candycolouredclown', opentype;  
 }
 
 h4{
     font-size: 3em;
     color: #A4003F;
-    font-family: 'Candycolouredclown', optentype;
+    font-family: 'Candycolouredclown', opentype;
 }
 
 h5{
     font-size: 2em;
     color: #A4003F;
-    font-family: 'Candycolouredclown', optentype;
+    font-family: 'Candycolouredclown', opentype;
 }
 
 h6{
     font-size: 1em;
     color: #A4003F;
-    font-family: 'Candycolouredclown', optentype;
+    font-family: 'Candycolouredclown', opentype;
 }
 
 p, ul, ol, label{
     font-size: 1.5em;
     color: black;
-    font-family: 'Century Gothic';
+    font-family: 'CenturyGothic', opentype;
     margin-top: 20px;
     text-align: center;
 }
@@ -96,7 +96,7 @@ p, ul, ol, label{
 li {
     font-size: 1.4em;
     color: black;
-    font-family: 'Century Gothic';
+    font-family: 'CenturyGothic', opentype;
     margin-right: 20px;
 }
 
@@ -109,7 +109,7 @@ a:link {
 a:visited, a:active{
     color: white;
     font-size: 14;
-    font-family: 'Century Gothic'
+    font-family: 'CenturyGothic', opentype;
 }
   
 a:hover {
@@ -124,7 +124,7 @@ a:hover {
     text-align: center;
     display: inline-block;
     font-size: 2.5em;
-    font-family: 'Candycolouredclown';
+    font-family: 'Candycolouredclown', opentype;
     color: white;
     height: 55px;
     width: 250px;
@@ -152,7 +152,7 @@ a.btn:active, button:active {
     text-align: center;
     display: inline-block;
     font-size: 2.5em;
-    font-family: 'Candycolouredclown';
+    font-family: 'Candycolouredclown', opentype;
     color: white;
     height: 55px;
     width: 250px;
