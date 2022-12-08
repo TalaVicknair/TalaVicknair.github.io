@@ -43,8 +43,8 @@ body{
 }
 
 @font-face {
-    font-family: Century_Gothic;
-    src: url("/fonts/GOTHIC.TTF") format("ttf");
+    font-family: CenturyGothic;
+    src: url("/fonts/CenturyGothic.otf") format("opentype");
 }
 
 h1{
